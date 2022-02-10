@@ -16,27 +16,28 @@ public class WebApiController {
       return "SpringBoot!";
   }
 
-  /** POST処理 */
-  @RequestMapping(value="/resource/{id}", method=RequestMethod.POST)
-  private String create(@RequestParam String param, @PathVariable String id, @RequestBody String data) {
-      return "Called POST.\r\n[id]=" + id + "\r\n[data]=" + data + "\r\n[param]=" + param;
-  }
-
   /** GET処理 */
   @RequestMapping(value="/resource/{id}", method=RequestMethod.GET)
   private String read(@RequestParam String param, @PathVariable String id) {
       return "Called GET.\r\n[id]=" + id + "\r\n[param]=" + param;
   }
-  /** DELETE処理 */
-  @RequestMapping(value="/resource/{id}", method=RequestMethod.DELETE)
-  private String delete(@RequestParam String param, @PathVariable String id) {
-      return "Called DELETE.\r\n[id]=" + id + "\r\n[param]=" + param;
+
+  /** POST処理 */
+  @RequestMapping(value="/resource/{id}", method=RequestMethod.POST)
+  private String create(@RequestParam String param, @PathVariable String id, @RequestBody String data) {
+      return "Called POST.\r\n[id]=" + id + "\r\n[param]=" + param + "\r\n[data]=" + data;
   }
 
   /** PUT処理 */
   @RequestMapping(value="/resource/{id}", method=RequestMethod.PUT)
   private String update(@RequestParam String param, @PathVariable String id, @RequestBody String data) {
-      return "Called PUT.\r\n[id]=" + id + "\r\n[param]=" + param;
+      return "Called PUT.\r\n[id]=" + id + "\r\n[param]=" + param + "\r\n[data]=" + data;
+  }
+
+  /** DELETE処理 */
+  @RequestMapping(value="/resource/{id}", method=RequestMethod.DELETE)
+  private String delete(@RequestParam String param, @PathVariable String id) {
+      return "Called DELETE.\r\n[id]=" + id + "\r\n[param]=" + param;
   }
 }
 

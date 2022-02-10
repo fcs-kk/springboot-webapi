@@ -31,11 +31,13 @@ Partial Class frmMain
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txtResp = New System.Windows.Forms.TextBox()
         Me.btnClear = New System.Windows.Forms.Button()
+        Me.txtData = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btnGet
         '
-        Me.btnGet.Location = New System.Drawing.Point(70, 35)
+        Me.btnGet.Location = New System.Drawing.Point(70, 87)
         Me.btnGet.Name = "btnGet"
         Me.btnGet.Size = New System.Drawing.Size(69, 23)
         Me.btnGet.TabIndex = 0
@@ -44,7 +46,7 @@ Partial Class frmMain
         '
         'btnPost
         '
-        Me.btnPost.Location = New System.Drawing.Point(145, 35)
+        Me.btnPost.Location = New System.Drawing.Point(145, 87)
         Me.btnPost.Name = "btnPost"
         Me.btnPost.Size = New System.Drawing.Size(69, 24)
         Me.btnPost.TabIndex = 1
@@ -53,7 +55,7 @@ Partial Class frmMain
         '
         'btnPut
         '
-        Me.btnPut.Location = New System.Drawing.Point(220, 36)
+        Me.btnPut.Location = New System.Drawing.Point(220, 87)
         Me.btnPut.Name = "btnPut"
         Me.btnPut.Size = New System.Drawing.Size(69, 23)
         Me.btnPut.TabIndex = 2
@@ -62,7 +64,7 @@ Partial Class frmMain
         '
         'btnDelete
         '
-        Me.btnDelete.Location = New System.Drawing.Point(295, 36)
+        Me.btnDelete.Location = New System.Drawing.Point(295, 87)
         Me.btnDelete.Name = "btnDelete"
         Me.btnDelete.Size = New System.Drawing.Size(69, 23)
         Me.btnDelete.TabIndex = 3
@@ -75,7 +77,7 @@ Partial Class frmMain
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtUrl.Location = New System.Drawing.Point(70, 6)
         Me.txtUrl.Name = "txtUrl"
-        Me.txtUrl.Size = New System.Drawing.Size(322, 23)
+        Me.txtUrl.Size = New System.Drawing.Size(294, 23)
         Me.txtUrl.TabIndex = 4
         Me.txtUrl.Text = "http://localhost:8080/api/resource/1"
         '
@@ -91,7 +93,7 @@ Partial Class frmMain
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(12, 75)
+        Me.Label2.Location = New System.Drawing.Point(12, 91)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(35, 15)
         Me.Label2.TabIndex = 6
@@ -102,28 +104,49 @@ Partial Class frmMain
         Me.txtResp.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.txtResp.Location = New System.Drawing.Point(70, 72)
+        Me.txtResp.Location = New System.Drawing.Point(70, 117)
         Me.txtResp.Multiline = True
         Me.txtResp.Name = "txtResp"
         Me.txtResp.ReadOnly = True
-        Me.txtResp.Size = New System.Drawing.Size(322, 19)
+        Me.txtResp.Size = New System.Drawing.Size(294, 45)
         Me.txtResp.TabIndex = 7
         '
         'btnClear
         '
         Me.btnClear.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.btnClear.Location = New System.Drawing.Point(70, 97)
+        Me.btnClear.Location = New System.Drawing.Point(70, 168)
         Me.btnClear.Name = "btnClear"
         Me.btnClear.Size = New System.Drawing.Size(69, 23)
         Me.btnClear.TabIndex = 8
         Me.btnClear.Text = "CLEAR"
         Me.btnClear.UseVisualStyleBackColor = True
         '
+        'txtData
+        '
+        Me.txtData.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.txtData.Location = New System.Drawing.Point(70, 35)
+        Me.txtData.Multiline = True
+        Me.txtData.Name = "txtData"
+        Me.txtData.Size = New System.Drawing.Size(294, 46)
+        Me.txtData.TabIndex = 9
+        Me.txtData.Text = "{""name"":""岩国次郎"",""note"":""広島県人？"",""age"":26,""registerDate"":""1940-04-01T00:00:00""}"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(12, 39)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(34, 15)
+        Me.Label3.TabIndex = 10
+        Me.Label3.Text = "Data:"
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(408, 131)
+        Me.ClientSize = New System.Drawing.Size(380, 199)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.txtResp)
         Me.Controls.Add(Me.Label2)
@@ -133,6 +156,7 @@ Partial Class frmMain
         Me.Controls.Add(Me.btnPut)
         Me.Controls.Add(Me.btnPost)
         Me.Controls.Add(Me.btnGet)
+        Me.Controls.Add(Me.txtData)
         Me.MinimumSize = New System.Drawing.Size(396, 170)
         Me.Name = "frmMain"
         Me.Text = "WebAPI Caller"
@@ -150,4 +174,6 @@ Partial Class frmMain
     Friend WithEvents Label2 As Label
     Friend WithEvents txtResp As TextBox
     Friend WithEvents btnClear As Button
+    Friend WithEvents txtData As TextBox
+    Friend WithEvents Label3 As Label
 End Class
