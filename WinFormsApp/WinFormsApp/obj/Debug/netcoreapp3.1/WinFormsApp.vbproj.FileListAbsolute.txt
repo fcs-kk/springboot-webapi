@@ -1,0 +1,15 @@
+Z:\PJ01145\WinFormsApp\WinFormsApp\obj\Debug\netcoreapp3.1\WinFormsApp.vbprojAssemblyReference.cache
+Z:\PJ01145\WinFormsApp\WinFormsApp\obj\Debug\netcoreapp3.1\WinFormsApp.frmMain.resources
+Z:\PJ01145\WinFormsApp\WinFormsApp\obj\Debug\netcoreapp3.1\WinFormsApp.vbproj.GenerateResource.cache
+Z:\PJ01145\WinFormsApp\WinFormsApp\obj\Debug\netcoreapp3.1\WinFormsApp.AssemblyInfoInputs.cache
+Z:\PJ01145\WinFormsApp\WinFormsApp\obj\Debug\netcoreapp3.1\WinFormsApp.AssemblyInfo.vb
+Z:\PJ01145\WinFormsApp\WinFormsApp\obj\Debug\netcoreapp3.1\WinFormsApp.vbproj.CoreCompileInputs.cache
+Z:\PJ01145\WinFormsApp\WinFormsApp\bin\Debug\netcoreapp3.1\WinFormsApp.exe
+Z:\PJ01145\WinFormsApp\WinFormsApp\bin\Debug\netcoreapp3.1\WinFormsApp.deps.json
+Z:\PJ01145\WinFormsApp\WinFormsApp\bin\Debug\netcoreapp3.1\WinFormsApp.runtimeconfig.json
+Z:\PJ01145\WinFormsApp\WinFormsApp\bin\Debug\netcoreapp3.1\WinFormsApp.runtimeconfig.dev.json
+Z:\PJ01145\WinFormsApp\WinFormsApp\bin\Debug\netcoreapp3.1\WinFormsApp.dll
+Z:\PJ01145\WinFormsApp\WinFormsApp\bin\Debug\netcoreapp3.1\WinFormsApp.pdb
+Z:\PJ01145\WinFormsApp\WinFormsApp\obj\Debug\netcoreapp3.1\WinFormsApp.dll
+Z:\PJ01145\WinFormsApp\WinFormsApp\obj\Debug\netcoreapp3.1\WinFormsApp.pdb
+Z:\PJ01145\WinFormsApp\WinFormsApp\obj\Debug\netcoreapp3.1\WinFormsApp.genruntimeconfig.cache
