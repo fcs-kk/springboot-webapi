@@ -57,7 +57,7 @@
         Try
             Using client As New Net.Http.HttpClient()
 
-                Dim jsonText As String = "{""name"":""卑弥呼"",""note"":""邪馬台国"",""age"":75,""registerDate"":""0204-01-01T02:03:04""}"
+                Dim jsonText As String = "{""name"":""福山太郎"",""note"":""岡山県人？"",""age"":75,""registerDate"":""1916-07-01T02:03:04""}"
                 Dim requestContent As New Net.Http.StringContent(jsonText, System.Text.Encoding.UTF8, "application/json")
 
                 Using response As Net.Http.HttpResponseMessage = client.PostAsync(url, requestContent).Result
@@ -88,7 +88,7 @@
         Try
             Using client As New Net.Http.HttpClient()
 
-                Dim jsonText As String = "{""name"":""平賀源内"",""note"":""エレキテル"",""age"":26,""registerDate"":""1728-01-01T00:00:00""}"
+                Dim jsonText As String = "{""name"":""岩国次郎"",""note"":""広島県人？"",""age"":26,""registerDate"":""1940-04-01T00:00:00""}"
                 Dim requestContent As New Net.Http.StringContent(jsonText, System.Text.Encoding.UTF8, "application/json")
 
                 Using response As Net.Http.HttpResponseMessage = client.PutAsync(url, requestContent).Result

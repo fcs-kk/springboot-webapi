@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\PJ01145\\WinFormsApp\\WinFormsApp\\WinFormsApp.vbproj": {}
+    "Y:\\workspace\\springboot-webapi\\WinFormsApp\\WinFormsApp\\WinFormsApp.vbproj": {}
   },
   "projects": {
-    "Z:\\PJ01145\\WinFormsApp\\WinFormsApp\\WinFormsApp.vbproj": {
+    "Y:\\workspace\\springboot-webapi\\WinFormsApp\\WinFormsApp\\WinFormsApp.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\PJ01145\\WinFormsApp\\WinFormsApp\\WinFormsApp.vbproj",
+        "projectUniqueName": "Y:\\workspace\\springboot-webapi\\WinFormsApp\\WinFormsApp\\WinFormsApp.vbproj",
         "projectName": "WinFormsApp",
-        "projectPath": "Z:\\PJ01145\\WinFormsApp\\WinFormsApp\\WinFormsApp.vbproj",
+        "projectPath": "Y:\\workspace\\springboot-webapi\\WinFormsApp\\WinFormsApp\\WinFormsApp.vbproj",
         "packagesPath": "C:\\Users\\fcs\\.nuget\\packages\\",
-        "outputPath": "Z:\\PJ01145\\WinFormsApp\\WinFormsApp\\obj\\",
+        "outputPath": "Y:\\workspace\\springboot-webapi\\WinFormsApp\\WinFormsApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
