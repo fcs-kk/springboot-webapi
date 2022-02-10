@@ -10,7 +10,7 @@
     ''' <param name="sender"></param>
     ''' <param name="e"></param>
     Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        txtUrl.Text = "http://localhost:8080/api/resource/123?param=abc"
     End Sub
 
     ''' <summary>
